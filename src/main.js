@@ -12,5 +12,5 @@ app.use(routes);
 let PORT = process.env.PORT || 9005;
 
 app.listen(PORT, function () {
-  console.log("CRUD app start on port", PORT);
+  console.log("movie app start on port", PORT);
 });

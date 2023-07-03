@@ -2,7 +2,7 @@ let express = require("express");
 
 let router = express.Router();
 
-let controller = require("./controller.js");
+let controller = require("./controller");
 
 //route to get all movie items
 router.get("/movies", controller.listEntries);
